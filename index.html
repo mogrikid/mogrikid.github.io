@@ -1,14 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎉</text></svg>">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-  Celebrate good times cmon!!
-	<script src="index.js"></script>
-  </body>
+    <title>🥳</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container" id="invitationPage">
+        <div class="row">
+            <div class="col headlines" id="headline1">
+                <h1>CELEBRATE WITH US</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="separator">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col headlines gold" id="headline2">
+                <h1>Join us with this very special motto!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="separator">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col headlines" id="headline4">
+                <h1>DRINKS, DANCING</h1>
+                <h1>
+                    <div class="gold">& </div>FRIENDS
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="separator">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col headlines" id="headline5">
+                <h1>
+                    <h1>13.11.2021</h1>
+                    <h1>SATURDAY</h1>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="separator">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col headlines gold" id="headline5">
+                <h1>
+                    <h1>BE THERE AT 08:00 PM SHARP</h1>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col headlines" id="headline5">
+                <h1>
+                    <h1>ZOUZOU</h1>
+                    <h4> Berliner Str. 72</h4>
+                    <h4> 60311 Frankfurt</h4>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="separator">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col headlines gold" id="headline5">
+                <h1>
+                    <h1>WILL YOU COME?</h1>
+                    <button type="button" class="btn btn-primary " id="request-rsvp">RSVP</button>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col headlines" id="headline5">
+                <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.6900365431943!2d8.675625551283607!3d50.11080847932906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ea8d95b3f91%3A0x825dc02662c25b45!2sZOUZOU%20Bar!5e0!3m2!1sde!2sde!4v1632326166005!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container" id="invitationPage">
+
+
+    <div class="col" id="form-container">
+        <form id="RSVP-Form">
+            <div class="row g-3 align-items-center">
+                <div class="mb-3">
+                    <label for="nameInput" class="form-label">Name</label>
+                    <input required autocomplete="off" name="Name" class="form-control" id="nameInput"
+                        aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="phoneInput" class="form-label">Phone Number</label>
+                    <input required autocomplete="off" name="Phone" class="form-control" id="phoneInput">
+                </div>
+                <div class="mb-3">
+                    <label for="amountInput" class="form-label">Number of guests</label>
+                    <input required autocomplete="off" name="Guests" class="form-control" id="amountInput">
+                </div>
+                <div class="mb-3">
+                    <label for="invitatorInput" class="form-label">Who invited you? (Name)</label>
+                    <input required autocomplete="off" name="Invitator" class="form-control" id="invitatorInput">
+                </div>
+
+                <button id="RSVP-submit" type="submit" class="btn btn-primary">Count me in!</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="col" id="thankYouContainer">
+<h1>Thank you very much! Joni, Chris, Nils and Max are looking forward seeing you!</h1>
+    </div>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="src/index.js"></script>
+</body>
+
 </html>

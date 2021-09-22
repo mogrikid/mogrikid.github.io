@@ -1,0 +1,60 @@
+#RSVP-Form{
+    text-align: center;
+}
+#form-container{
+    display: none
+}
+#thankYouContainer{
+    display: none;
+}
+body{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+.headlines{
+    margin-top:2%;
+    margin-bottom:2%;
+}
+#headline1{
+    margin-top:5%;
+}
+.separator{
+    height:1px;
+    width:70%;
+    background-color: black;
+    margin: auto;
+}
+.gold{
+    color:#D6B651;
+    display: inline;
+}
+#request-rsvp{
+    background-color: #D6B651;;
+    border:1px solid #D6B651;;
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
