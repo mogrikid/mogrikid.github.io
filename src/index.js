@@ -1,6 +1,3 @@
-//ID: AKfycbxntRxdE2whrTc5BnMKJ09qb-ueHgtXe3-bPGeit4DsAqsSOoEAJ3F8WNNQAFynB_8OoQ
-//URL: https://script.google.com/macros/s/AKfycbxntRxdE2whrTc5BnMKJ09qb-ueHgtXe3-bPGeit4DsAqsSOoEAJ3F8WNNQAFynB_8OoQ/exec
-
 $(document).ready(function () {
 
     var $form = $('form#RSVP-Form'),
