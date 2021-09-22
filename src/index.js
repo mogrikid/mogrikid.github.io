@@ -34,22 +34,28 @@ $(document).ready(function () {
             $("#invitatorInput").removeClass("is-invalid");
         }
 
-        if($("#amountInput").val() != "" && $("#phoneInput").val() != "" && $("#amountInput").val() != "" && $("#invitatorInput").val() == ""){
-        var jqxhr = $.ajax({
-            url: url,
-            method: "GET",
-            dataType: "json",
-            success: function (e) {
-                $("#form-container").fadeOut(function(e){
-                    $("#thankYouContainer").fadeIn();
-                })
-            },
-            error: function (e) {
-                alert("There has been an error, please retry and if the error persists, please contact one of either Joni, Nils, Chris or Max")
-            },
-            data: $form.serializeObject()
-        })
-    }
+        if ($("#nameInput").val() != "" && $("#phoneInput").val() != "" && $("#amountInput").val() != "" && $("#invitatorInput").val() != "") {
+            $("#form-container").fadeOut(function (e) {
+                $("#spinner").fadeIn();
+            });
+            var jqxhr = $.ajax({
+                url: url,
+                method: "GET",
+                dataType: "json",
+                success: function (e) {
+                    $("#spinner").fadeOut(function (e) {
+                        $("#thankYouContainer").fadeIn();
+                    });
+                },
+                error: function (e) {
+                    $("#thankYouContainer").fadeOut(function (e) {
+                        $("#errorContainer").fadeIn();
+                    });
+
+                },
+                data: $form.serializeObject()
+            })
+        }
     })
 });
 

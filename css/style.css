@@ -10,6 +10,22 @@
 body{
     font-family: 'Abel', sans-serif;
     text-align: center;
+    min-height: 100%;
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 .headlines{
     margin-top:2%;
@@ -58,3 +74,50 @@ body{
     position:absolute;
 
 }
+.avatar{
+    height:100px;
+}
+.avatarDiv{
+    width:auto;
+    justify-content: center;
+}
+.avatarRow{
+    justify-content: center;  
+}
+#invitationPage{
+    margin-top:5%;
+}
+#RSVP-submit{
+    background-color: #D6B651;;
+    border:1px solid #D6B651;; 
+}
+#spinner{
+
+    display:none;
+    margin: auto;
+}
+#spinnerCol{
+    margin-top:10%;
+}
+#errorContainer{
+    margin-top:10%;
+    display: none;
+}
+#thankYouContainer{
+    margin-top:10%;
+}
+#background{
+   
+    min-height:100%;
+    width:96%;
+    background-color: rgba(255, 255, 255, .9);
+    z-index: -10;;
+    margin-left:2%;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+    z-index: -20;
+  }
