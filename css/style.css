@@ -90,6 +90,7 @@ body{
 #RSVP-submit{
     background-color: #D6B651;;
     border:1px solid #D6B651;; 
+    margin-bottom:5%;
 }
 #spinner{
 
@@ -113,6 +114,7 @@ body{
     background-color: rgba(255, 255, 255, .9);
     z-index: -10;;
     margin-left:2%;
+    border-radius: 5px;;
 }
 
 .ball {
