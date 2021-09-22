@@ -8,6 +8,7 @@ $(document).ready(function () {
 
     $("#request-rsvp").on("click", function (e) {
         $("#invitationPage").fadeOut(function (e) {
+            document.location.href = "#top";
             $("#form-container").fadeIn();
         });
     })
