@@ -1,3 +1,6 @@
+body{
+    text-transform: uppercase;
+}
 #RSVP-Form{
     text-align: center;
 }
