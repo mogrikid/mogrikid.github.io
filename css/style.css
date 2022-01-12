@@ -35,7 +35,7 @@ body{
     margin-bottom:2%;
 }
 #headline1{
-    margin-top:5%;
+    margin-top:1%;
 }
 .separator{
     height:1px;
@@ -119,4 +119,13 @@ body{
     margin-left:2%;
     border-radius: 5px;;
 }
+
+#myVideo {
+height:250px;
+
+  }
+
+  #notice{
+    color:red;
+  }
 
